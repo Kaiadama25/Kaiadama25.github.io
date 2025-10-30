@@ -25,6 +25,7 @@
   }
 
   const projects = [
+  { title:"New Thing", desc:"does cool AI stuff", url:"https://example.com" },
     { title:'Project One', desc:'Quick blurb.', url:'#' },
     { title:'Project Two', desc:'Another short desc.', url:'#' },
     { title:'Project Three', desc:'Replace with real work.', url:'#' }
