@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>my ai — Builder • Gamer • AI Developer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+<meta name="description" content="my ai — Builder • Gamer • AI Developer">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <div class="brand">
+      <a href="/">my ai</a>
+      <span class="tagline">Builder • Gamer • AI Developer</span>
+    </div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button id="themeToggle" aria-label="Toggle theme">🌓</button>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero">
+    <div class="container">
+      <h1>my ai</h1>
+      <p>Builder • Gamer • AI Developer</p>
+      <div class="cta">
+        <a class="btn" href="#projects">View Projects</a>
+        <a class="btn ghost" href="#contact">Contact Me</a>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About</h2>
+      <p>Edit this page in <code>index.html</code>.</p>
+      <ul class="grid two">
+        <li>⚙️ Termux workflow</li>
+        <li>🚀 GitHub Pages hosting</li>
+        <li>🔒 Free</li>
+        <li>🧩 HTML/CSS/JS</li>
+      </ul>
+    </div>
+  </section>
+  <section id="projects" class="section alt">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="grid three cards" id="projectGrid"></div>
+    </div>
+  </section>
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <form id="contactForm">
+        <div class="row">
+          <input type="text" id="name" placeholder="Your name" required>
+          <input type="email" id="email" placeholder="Your email" required>
+        </div>
+        <textarea id="message" rows="5" placeholder="Your message"></textarea>
+        <button class="btn" type="submit">Send</button>
+        <p id="formResult" class="muted"></p>
+      </form>
+      <p class="muted small">Hook this to Formspree/Netlify or your own endpoint.</p>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> my ai. All rights reserved.</p>
+  </div>
+</footer>
+<script src="./app.js"></script>
+</body>
+</html>
